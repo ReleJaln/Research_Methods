@@ -1,0 +1,45 @@
+% ******************************************
+% 通用宏包与格式设置
+% ******************************************
+\usepackage{graphicx}        % 插入图片
+\usepackage{amsmath,amssymb} % 数学公式
+\usepackage{url}             % 超链接
+\usepackage{booktabs}        % 更美观的表格
+\usepackage{enumitem}        % 自定义列表格式
+\usepackage{caption}         % 图片/表格标题微调
+\usepackage{subcaption}      % 子图标题
+\usepackage{siunitx}         % 单位排版（如需要）
+
+% ******************************************
+% 中文/英文排版优化
+% ******************************************
+\usepackage{xeCJK}             % 中文支持
+\usepackage{fontspec}          % 英文字体精细控制
+\setCJKmainfont{SimSun}        % 中文字体：宋体（需系统安装）
+\setmainfont{Times New Roman}  % 英文字体
+\XeTeXlinebreaklocale "zh"     % 中文自动换行优化
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+% ******************************************
+% 自定义命令/缩写（可选）
+% ******************************************
+% 示例：定义常用数学符号
+\newcommand{\E}{\mathbb{E}}    % 期望符号
+\newcommand{\R}{\mathbb{R}}    % 实数域
+
+% 示例：缩写 AI
+\newcommand{\AI}{人工智能}
+
+% ******************************************
+% 页边距与双栏微调（如需覆盖主文件设置）
+% ******************************************
+% \usepackage{geometry}
+% \geometry{letterpaper, margin=1in} 
+% \setlength{\columnsep}{0.4in}      
+
+% ******************************************
+% 其他自定义设置（根据需求添加）
+% ******************************************
+% 如：注释风格、代码排版等
+% \usepackage{comment}
+% \usepackage{listings}

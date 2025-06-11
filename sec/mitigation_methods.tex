@@ -1,0 +1,20 @@
+\cvprsection{偏见缓解方法与公平性评估}
+
+针对偏见，学术界和工业界提出了多种缓解策略：
+
+\begin{itemize}
+	\item \textbf{数据层面}：通过重采样、数据增强和多样化数据采集策略提升数据代表性；
+	\item \textbf{模型层面}：采用对抗性训练、加权损失函数、因果建模等技术，减少模型偏差；
+	\item \textbf{输出层面}：后处理阶段调整预测结果，如分组重校准，平衡不同群体的误差率。
+\end{itemize}
+
+公平性评估指标主要包括：
+
+\begin{itemize}
+	\item \textbf{Statistical Parity}：不同群体获得正向结果的概率相等；
+	\item \textbf{Equal Opportunity}：在真实正样本中，各群体的正确预测率相等；
+	\item \textbf{Predictive Parity}：不同群体的预测准确率相等；
+	\item \textbf{Individual Fairness}：相似个体应有相似的预测结果。
+\end{itemize}
+
+不同应用场景需要根据业务目标和社会期望选择合适的公平性定义，并在准确性与公平性之间进行权衡。

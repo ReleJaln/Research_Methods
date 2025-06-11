@@ -1,0 +1,41 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Angwin et~al.(2016)Angwin, Larson, Mattu, and
+  Kirchner]{Angwin2016MachineBias}
+Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner.
+\newblock Machine bias: There’s software used across the country to predict
+  future criminals. and it’s biased against blacks.
+\newblock \emph{ProPublica}, 2016.
+
+\bibitem[Binns(2018)]{Binns2018Fairness}
+Reuben Binns.
+\newblock Fairness in machine learning: Lessons from political philosophy.
+\newblock \emph{Proceedings of the Conference on Fairness, Accountability, and
+  Transparency (FAT*)}, pages 40--49, 2018.
+
+\bibitem[Buolamwini and Gebru(2018)]{Buolamwini2018GenderShades}
+Joy Buolamwini and Timnit Gebru.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In \emph{Proceedings of the Conference on Fairness, Accountability
+  and Transparency}, pages 77--91. ACM, 2018.
+
+\bibitem[Mehrabi et~al.(2021)Mehrabi, Morstatter, Saxena, Lerman, and
+  Galstyan]{Mehrabi2021Survey}
+Nasim Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram
+  Galstyan.
+\newblock A survey on bias and fairness in machine learning.
+\newblock \emph{ACM Computing Surveys}, 54\penalty0 (6):\penalty0 1--35, 2021.
+
+\bibitem[Parliament(2024)]{EuropeanParliament2024AIAct}
+European Parliament.
+\newblock Proposal for a regulation laying down harmonised rules on artificial
+  intelligence (artificial intelligence act).
+\newblock 2024.
+
+\end{thebibliography}
